@@ -2,7 +2,4 @@
 from datetime import datetime
 
 dt = datetime.strptime('08.19.2018', '%m.%d.%Y')
-
 print(str(dt.strftime('%d.%m.%Y')))
-
-
