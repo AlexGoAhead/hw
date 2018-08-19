@@ -4,6 +4,5 @@ import math
 a = 5
 b = 10
 c = 15
-# |a - b| = (a + b)
-summary = (a + b) / (a + b)**3 - math.cos(c)
+summary = math.fabs(a + b) / (a + b)**3 - math.cos(c)
 print('The result of equation is', summary)
