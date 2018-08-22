@@ -10,11 +10,11 @@ import datetime
 
 d = datetime.datetime.now()
 b = str(d)
-m = b.split()[0]
-n = m.split('-')
-li = [n]
+date = b.split()[0]
+date_lst = date.split('-')
+li = [date_lst]
 # print(d)
 # print(m)
-print('USA date format is:', n[1] + '.' + n[2] + '.' + n[0])
-print('EU date format is:', n[2] + '.' + n[1] + '.' + n[0])
+print('USA date format is:', date_lst[1] + '.' + date_lst[2] + '.' + date_lst[0])
+print('EU date format is:', date_lst[2] + '.' + date_lst[1] + '.' + date_lst[0])
 
