@@ -6,6 +6,6 @@ import re
 
 text = 'snake_case'
 result = re.sub(r'_', '', text)
-
+?
 
 print(result)
