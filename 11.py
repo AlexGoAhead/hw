@@ -10,4 +10,4 @@ def degrees2radians(degrees):
 dgrs1 = degrees2radians(math.cos(60))
 dgrs2 = degrees2radians(math.cos(45))
 dgrs3 = degrees2radians(math.cos(40))
-print(dgrs1, dgrs2, dgrs3)
+print('%.2f %.2f %.2f' % (dgrs1, dgrs2, dgrs3))
