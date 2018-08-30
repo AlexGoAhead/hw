@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4c5bf590-3910-46c1-85ac-7eb2bbd0e67f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11.py" beforeDir="false" afterPath="$PROJECT_DIR$/11.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,23 +23,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="13" />
+          <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="13" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="1020" />
-          <entry key="py" value="6324" />
+          <entry key="Python Console" value="1096" />
+          <entry key="py" value="6689" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="7344" />
+          <entry key="Python" value="7785" />
         </counts>
       </usages-collector>
     </session>
@@ -59,11 +58,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/12.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/13.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding>
+                <marker date="1535663135210" expanded="true" signature="273:274" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,10 +111,11 @@
         <option value="$PROJECT_DIR$/10.py" />
         <option value="$PROJECT_DIR$/11.py" />
         <option value="$PROJECT_DIR$/12.py" />
+        <option value="$PROJECT_DIR$/13.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="14" />
     <option name="y" value="28" />
     <option name="width" value="1346" />
@@ -117,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,6 +140,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.11">
+  <component name="RunManager" selected="Python.13">
     <configuration name="10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lessons_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,7 +223,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="13" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lessons_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,7 +235,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,19 +266,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.7" />
       <item itemvalue="Python.9" />
       <item itemvalue="Python.10" />
       <item itemvalue="Python.11" />
       <item itemvalue="Python.12" />
+      <item itemvalue="Python.13" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.13" />
         <item itemvalue="Python.11" />
         <item itemvalue="Python.12" />
         <item itemvalue="Python.10" />
         <item itemvalue="Python.9" />
-        <item itemvalue="Python.7" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +300,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24968314" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -296,8 +308,8 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.35989377" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.35989377" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3997344" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -315,7 +327,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.35989377" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.35989377" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -413,6 +425,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_frame_eval/pydevd_frame_tracing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <marker date="1535663135210" expanded="true" signature="273:274" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
