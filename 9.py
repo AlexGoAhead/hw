@@ -9,4 +9,3 @@ first_word = include[0]
 second_word = include[1]
 third_word = include[2]
 print('CamelCase format is:', first_word.title() + second_word.title() + third_word.title())
-
