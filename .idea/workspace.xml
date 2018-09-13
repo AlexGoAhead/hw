@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/23.py" line="19" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4c5bf590-3910-46c1-85ac-7eb2bbd0e67f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
@@ -24,23 +27,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="27" />
+          <entry key="py" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="27" />
+          <entry key="Python" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="1248" />
-          <entry key="py" value="18747" />
+          <entry key="py" value="21951" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="19995" />
+          <entry key="Python" value="23199" />
         </counts>
       </usages-collector>
     </session>
@@ -57,72 +60,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/15.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="940">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <marker date="1536399146733" expanded="true" signature="406:407" ph="..." />
-                <marker date="1536399146733" expanded="true" signature="406:726" ph="..." />
-                <marker date="1536399146733" expanded="true" signature="406:775" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/17.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="e#628#648#0" />
-                <marker date="1536422469201" expanded="true" signature="96:100" ph="..." />
-                <marker date="1536422469201" expanded="true" signature="242:243" ph="..." />
-                <marker date="1536422469201" expanded="true" signature="242:247" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/18.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding>
-                <marker date="1536520609226" expanded="true" signature="387:701" ph="..." />
-                <marker date="1536520609226" expanded="true" signature="698:700" ph="..." />
-                <marker date="1536520609226" expanded="false" signature="701:1866" ph="..." />
-                <marker date="1536520609226" expanded="true" signature="879:1320" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/19.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -151,13 +92,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/22.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="660">
               <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding>
                 <marker date="1536701434701" expanded="true" signature="779:780" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/23.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <marker date="1536844477780" expanded="true" signature="700:705" ph="..." />
               </folding>
             </state>
           </provider>
@@ -204,16 +166,17 @@
         <option value="$PROJECT_DIR$/19.py" />
         <option value="$PROJECT_DIR$/20.py" />
         <option value="$PROJECT_DIR$/21.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/22.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/23.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1218" />
-    <option name="y" value="154" />
-    <option name="width" value="1346" />
-    <option name="height" value="698" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -253,28 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.22">
-    <configuration name="19" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lessons_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.23">
     <configuration name="20" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lessons_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -338,6 +280,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="23" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lessons_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lessons_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -360,19 +323,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.19" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.20" />
       <item itemvalue="Python.21" />
       <item itemvalue="Python.22" />
+      <item itemvalue="Python.23" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.22" />
+        <item itemvalue="Python.23" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.22" />
         <item itemvalue="Python.21" />
         <item itemvalue="Python.20" />
-        <item itemvalue="Python.19" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +353,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -398,11 +361,11 @@
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32583067" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.3252818" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.2915327" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4380032" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -421,7 +384,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.2915327" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4380032" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -539,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_frame_eval/pydevd_frame_tracing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/17.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -598,16 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding>
-            <marker date="1536688882109" expanded="true" signature="378:383" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/21.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
@@ -618,10 +564,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="65" />
+        <state relative-caret-position="223">
+          <caret line="1664" lean-forward="true" selection-start-line="1664" selection-end-line="1664" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_tracing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_frame_eval/pydevd_frame_tracing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <marker date="1536688882109" expanded="true" signature="378:383" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -631,6 +601,23 @@
           <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding>
             <marker date="1536701434701" expanded="true" signature="779:780" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/23.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <marker date="1536844477780" expanded="true" signature="700:705" ph="..." />
           </folding>
         </state>
       </provider>

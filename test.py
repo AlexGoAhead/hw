@@ -1,20 +1,27 @@
+a = 64
+b = (2**20)-1
+# print(b)
+def play_game():
+    summary_chess = 2**64 - 1
+    for i in range(1, 65):
+        q = 2**i-1
+        m = 2**i-1
+        print('Сумма зерен на %d ячейке будет равна: %d' % (i, q))
+        if q >= 1000000 and q < 2000000:
+            # print(list(enumerate(range(q))))
+            print(q)
+    return q, m
+play_game()
 
-# name = input('Enter you name: ')
-# year = input('How old are you: ')
-# hundred_year = (2018 - int(year))+100
-# print('%s, you 100 year in %d year!' % (name, hundred_year))
-from random import randint
-print('Please, try to guess the number in the range of 1 - 10: ')
+print(2**64-1)
+print('*****************')
 
-number = randint(1, 10)
-while True:
-    a = int(input())
-    if a == 0: break
-    if a != number:
-        if a >number:
-            print('Try reduce your number')
-        elif a < number:
-            print('Try to increase your number')
-    else:
-        print('Bingo')
-        print(number)
+print('*****************')
+def chess_reward():
+   for i in range(1, 65):
+       total_number = 2**i -1
+       if total_number >= 1000000 and total_number < 2000000:
+           l = total_number
+           print(l)
+   return print(total_number)
+chess_reward()
