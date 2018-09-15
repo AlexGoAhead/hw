@@ -6,7 +6,10 @@
      def shuffle_list(list_to_shuffle): # no return (shuffles list in place)
 		pass
 """
+import random
 def shuffle_list(list_to_shuffle):
-    list_to_shuffle[0], list_to_shuffle[1] = list_to_shuffle[1], list_to_shuffle[0]
-    print(list_to_shuffle)
+    oracle = list_to_shuffle
+    shuffled_list = random.sample(oracle, len(oracle))
+    print(shuffled_list)
+    # print(sorted(shuffled_list))
 res = shuffle_list([i for i in range(100) if i % 2 != 0])
