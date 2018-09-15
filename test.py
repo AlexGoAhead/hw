@@ -1,27 +1,30 @@
-a = 64
-b = (2**20)-1
-# print(b)
-def play_game():
-    summary_chess = 2**64 - 1
-    for i in range(1, 65):
-        q = 2**i-1
-        m = 2**i-1
-        print('Сумма зерен на %d ячейке будет равна: %d' % (i, q))
-        if q >= 1000000 and q < 2000000:
-            # print(list(enumerate(range(q))))
-            print(q)
-    return q, m
-play_game()
+students = ['Alex Goncharuk', 'Sergei Petrov', 'Leonib Burlaka', 'Victoria Goncharuk']
+srnm = [i for i in students]
+print(range(len(srnm)))
+a = students[0]
+b = a.rfind(' ')
+print('------')
+print(b)
+print('------')
 
-print(2**64-1)
-print('*****************')
+text = 'Ваши действия в режиме инкогнито будут недоступны другим пользователям этого устройства. Однако закладки и скачанные файлы сохранятся'
+word_lengths = [len(word.strip('.,!@#$%^&*?')) for word in text.split()]
+print(word_lengths)
+print('Avr. length:', sum(word_lengths) // len(word_lengths))
 
-print('*****************')
-def chess_reward():
-   for i in range(1, 65):
-       total_number = 2**i -1
-       if total_number >= 1000000 and total_number < 2000000:
-           l = total_number
-           print(l)
-   return print(total_number)
-chess_reward()
+print("Поможет выполнить задание!!!!")
+group_firts = [chr(i) for i in range(ord('A'), ord('I') + 1)]
+print(group_firts)
+print(''.join(group_firts))
+
+second_group = [chr(i) for i in range(ord('J'), ord('P') + 1)]
+print(second_group)
+print(''.join(second_group))
+
+third_group = [chr(i) for i in range(ord('Q'), ord('T') + 1)]
+print(third_group)
+print(''.join(third_group))
+
+fourth_group = [chr(i) for i in range(ord('U'), ord('Z') + 1)]
+print(fourth_group)
+print(''.join(fourth_group))
