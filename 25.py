@@ -9,7 +9,9 @@
 import random
 def shuffle_list(list_to_shuffle):
     oracle = list_to_shuffle
-    shuffled_list = random.sample(oracle, len(oracle))
-    print(shuffled_list)
+    b = oracle.sort()
+    # shuffled_list = random.sample(oracle, len(oracle))
+    # print(shuffled_list)
     # print(sorted(shuffled_list))
+    print(b)
 res = shuffle_list([i for i in range(100) if i % 2 != 0])

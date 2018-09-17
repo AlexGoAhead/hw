@@ -11,19 +11,19 @@
 '''
 
 def group_by_surname(list_of_enrollees):
-    A2I = []
-    J2P = []
-    Q2T = []
-    U2Z = []
+    a2i = []
+    j2p = []
+    q2t = []
+    u2z = []
     for surname2 in list_of_enrollees:
         surname = surname2.split()[1]
         if ord('%s' % surname[0]) < ord('J'):
-            A2I.append(surname)
+            a2i.append(surname)
         elif ord('%s' % surname[0]) < ord('Q'):
-            J2P.append(surname)
+            j2p.append(surname)
         elif ord('%s' % surname[0]) < ord('U'):
-            Q2T.append(surname)
+            q2t.append(surname)
         elif ord('%s' % surname[0]) <= ord('Z'):
-            U2Z.append(surname)
-    return len(A2I), len(J2P), len(Q2T), len(U2Z)
+            u2z.append(surname)
+    return len(a2i), len(j2p), len(q2t), len(u2z)
 print(group_by_surname(['A I', 'B J', 'C T', 'D U']))
