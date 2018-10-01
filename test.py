@@ -1,30 +1,12 @@
-students = ['Alex Goncharuk', 'Sergei Petrov', 'Leonib Burlaka', 'Victoria Goncharuk']
-srnm = [i for i in students]
-print(range(len(srnm)))
-a = students[0]
-b = a.rfind(' ')
-print('------')
-print(b)
-print('------')
-
-text = 'Ваши действия в режиме инкогнито будут недоступны другим пользователям этого устройства. Однако закладки и скачанные файлы сохранятся'
-word_lengths = [len(word.strip('.,!@#$%^&*?')) for word in text.split()]
-print(word_lengths)
-print('Avr. length:', sum(word_lengths) // len(word_lengths))
-
-print("Поможет выполнить задание!!!!")
-group_firts = [chr(i) for i in range(ord('A'), ord('I') + 1)]
-print(group_firts)
-print(''.join(group_firts))
-
-second_group = [chr(i) for i in range(ord('J'), ord('P') + 1)]
-print(second_group)
-print(''.join(second_group))
-
-third_group = [chr(i) for i in range(ord('Q'), ord('T') + 1)]
-print(third_group)
-print(''.join(third_group))
-
-fourth_group = [chr(i) for i in range(ord('U'), ord('Z') + 1)]
-print(fourth_group)
-print(''.join(fourth_group))
+import random
+lst = [i for i in range(10) if i % 2 != 0]
+print(lst)
+new_lst = 0
+x = []
+while len(lst) != 0:
+    # print(lst[new_lst])
+    new_lst += 1
+    metr = random.choice(list(lst))
+    num = x.append(metr)
+    lst.remove(metr)
+print(x)

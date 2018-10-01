@@ -8,10 +8,15 @@
 """
 import random
 def shuffle_list(list_to_shuffle):
-    oracle = list_to_shuffle
-    b = oracle.sort()
-    # shuffled_list = random.sample(oracle, len(oracle))
-    # print(shuffled_list)
-    # print(sorted(shuffled_list))
-    print(b)
+    # print(list_to_shuffle)
+    iterator = 0
+    new_list = []
+    while len(list_to_shuffle) != 0:
+        iterator += 1
+        num = random.choice(list(list_to_shuffle))
+        new_list.append(num)
+        list_to_shuffle.remove(num)
+    print(new_list)
 res = shuffle_list([i for i in range(100) if i % 2 != 0])
+
+
