@@ -6,17 +6,17 @@
      def shuffle_list(list_to_shuffle): # no return (shuffles list in place)
 		pass
 """
-import random
+from random import randrange
 def shuffle_list(list_to_shuffle):
+    # m = [list_to_shuffle[i^1] for i in range(len(list_to_shuffle))]
     # print(list_to_shuffle)
-    iterator = 0
-    new_list = []
-    while len(list_to_shuffle) != 0:
-        iterator += 1
-        num = random.choice(list(list_to_shuffle))
-        new_list.append(num)
-        list_to_shuffle.remove(num)
-    print(new_list)
+    for i in range(len(list_to_shuffle)):
+        a = randrange(list_to_shuffle.__len__())
+        b = randrange(list_to_shuffle.__len__())
+        list_to_shuffle[a], list_to_shuffle[b] = list_to_shuffle[b], list_to_shuffle[a]
+    print(list_to_shuffle)
+    print(sorted(list_to_shuffle))
 res = shuffle_list([i for i in range(100) if i % 2 != 0])
+
 
 

@@ -32,3 +32,26 @@ print(collections.Counter(lst1))
 print('------')
 print(test['1'])
 print(list(lst1.keys())[list(lst1.values()).index(1)])
+
+
+#
+# Сколько
+# раз
+# входит
+# число
+# 7
+# в
+# список
+# a
+
+
+def mycount(a):
+    c = 0
+    for x in a:
+        if x == 7:
+            c = c + 1
+    return c
+
+
+a = [7, 9, -3, 7, 2, 1, 7]
+print(mycount(a))
