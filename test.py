@@ -13,11 +13,13 @@ import random
 # print(exmpl, exmpl_second)
 # print(lst[random.randrange(1, 100, 2)])
 lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-lst.insert(lst[0], lst[4])
-# for i in range(1):
-#     lst.insert(random.randint(len(lst), len(lst)), random.randint(len(lst), len(lst)))
-#     print(lst)
-#     print(sorted(lst))
+# a = random.randrange(0, 9)
+# b = random.randrange(0, 9)
+# lst[a], lst[b] = lst[b], lst[a]
+    for i in range(len(lst)):
+        a = random.randrange(0, 10)
+        b = random.randrange(0, 10)
+        lst[a], lst[b] = lst[b], lst[a]
 print(lst)
 
 
