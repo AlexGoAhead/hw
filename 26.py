@@ -13,26 +13,35 @@
 import random
 import collections
 from collections import Counter
-# def calc_frequency(lst):
-    # lst_first = []
-    # for i in
-    # print(a)
-lst = []
-lst1 = []
-for i in range(11):
-    lst.append(random.randint(-1, 1))
-for j in range(11):
-    lst1.append(random.randint(-1, 1))
-print(lst)
-print(list(collections.Counter(lst))[2])
-print('-----')
-print(lst1)
-test = collections.Counter(lst1)
-print(collections.Counter(lst1))
-print('------')
-print(test['1'])
-print(list(lst1.keys())[list(lst1.values()).index(1)])
-
+def calc_frequency(lst):
+    below_zero = []
+    zero = []
+    one = []
+    a = lst.count(1)
+    b = lst.count(-1)
+    c = lst.count(0)
+    if a > b and c:
+        print('number of 1 is: ', a)
+        return a
+    elif b > a and c:
+        print('number of -1 is: ', b)
+        return b
+    elif c > a and b:
+        print('number of 0 is: ', c)
+        return c
+    elif b == c:
+        print(None)
+        return None
+    else:
+        print(None)
+        return None
+        if a == b or a == c or b == c or b == a or c == a:
+            print(None)
+            return None
+    print(lst)
+    print(a, b, c)
+ex = calc_frequency([1, 1, 1, -1, -1, 1, 1, -1, 0, 0, 0])
+# exmpl = calc_frequency([random.randint(-1, 1) for i in range(11)])
 
 #
 # Сколько
@@ -54,4 +63,4 @@ def mycount(a):
 
 
 a = [7, 9, -3, 7, 2, 1, 7]
-print(mycount(a))
+# print(mycount(a))

@@ -10,8 +10,8 @@ import random
 def shuffle_list(list_to_shuffle):
     lst = len(list_to_shuffle)
     for i in range(len(list_to_shuffle)):
-        a = random.randrange(0, 49)
-        b = random.randrange(0, 49)
+        a = random.randrange(0, len(list_to_shuffle))
+        b = random.randrange(0, len(list_to_shuffle))
         list_to_shuffle[a], list_to_shuffle[b] = list_to_shuffle[b], list_to_shuffle[a]
         # print('Итерация цикла №:', i)
         # print('Индекс а: %d и соответственно индекс b: %d' % (a, b))
